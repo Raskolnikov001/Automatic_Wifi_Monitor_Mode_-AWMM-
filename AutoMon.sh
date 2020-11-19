@@ -52,7 +52,6 @@ then
         apt-get install aircrack-ng
         apt-get install iwconfig
         echo ""
-        echo "Installed"
         echo ""
 
     else
@@ -74,7 +73,6 @@ then
         echo "Activating..."
         airmon-ng start $net_interface
         iwconfig
-        echo "Active."
 
     elif [ $DEB_INPUT2 = "2" ];
     then    
@@ -82,7 +80,6 @@ then
         echo "Deactivating..."
         airmon-ng stop $net_interface"mon"
         iwconfig
-        echo "Deactivated."
 
     else
             echo "Invalid input. Try again with 1 or 2."
@@ -126,7 +123,6 @@ then
         yum install iw
         yum install wireless-tools
         echo ""
-        echo "Installed"
         echo ""
 
     else
@@ -146,7 +142,6 @@ then
         echo "Activating..."
         airmon-ng start $net_interface
         iwconfig
-        echo "Active."
 
     elif [ $RPM_INPUT2 = "2" ];
     then    
@@ -154,7 +149,6 @@ then
         echo "Deactivating..."
         airmon-ng stop $net_interface"mon"
         iwconfig
-        echo "Deactivated."
 
     else
             echo "Invalid input. Try again with 1 or 2."
@@ -196,7 +190,6 @@ then
         pacman -S aircrack-ng
         pacman -S wireless-tools
         echo ""
-        echo "Installed"
         echo ""
 
     else
@@ -216,7 +209,6 @@ then
         echo "Activating..."
         airmon-ng start $net_interface
         iwconfig
-        echo "Active."
 
     elif [ $ARCH_INPUT2 = "2" ];
     then    
@@ -224,7 +216,6 @@ then
         echo "Deactivating..."
         airmon-ng stop $net_interface"mon"
         iwconfig
-        echo "Deactivated."
 
     else
         echo "Invalid input. Try again with 1 or 2."
