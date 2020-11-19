@@ -14,6 +14,7 @@ It is compatible with:
 
 The script is used to both enable and disable monitor mode.
 
+
 # How to Set and Use AWMM #
 
 ## All Distributions : ##
@@ -24,11 +25,15 @@ So, go to the script directory with a terminal and type:
 
 <code> $ sudo chmod +x AutoMon.sh </code>
 
+<br>
+
 Then you need to set the name of your network interface.
 
 So, type in the terminal:
 
 <code> $ ip a </code>
+
+<br>
 
 Copy the name of the network interface and type in the terminal:
 
@@ -36,9 +41,13 @@ Copy the name of the network interface and type in the terminal:
 
 Once you have opened the nano editor you have to paste the name of your network interface instead of <code>wlp58s0</code> in the <code> net_interface</code> variable.
 
+<br>
+
 Then save your changes and close the nano editor.
 
 Now you can move the <code>.sh</code> file wherever is best for you.
+
+<br>
 
 To run it, type in your terminal:
 
@@ -46,13 +55,15 @@ To run it, type in your terminal:
 
 in the directory where it is located.
 
+<br>
+
 <b>ATTENTION: run the script as root ! </b>
 
 Once you have run the script follow the instructions contained in it.
 
 The script works with the "aircrack-ng" and "airmon.ng" tools.
 
-
+<br>
 
 # Thank You #
 
