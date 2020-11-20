@@ -8,9 +8,9 @@ Automatic_Wifi_Monitor_Mode (AWMM)<a name="TOP"></a>
 AWMM (Automatic Wifi Monitor Mode) is a simple script written in bash which facilitates access to the monitor mode of your Wifi card.
 
 It is compatible with: 
-* Debian and derivative distribution
-* rpm distributions
-* Arch and derivative distribution
+* Debian and derivatives distributions
+* RPM distributions
+* Arch and derivatives distributions
 
 The script is used to both enable and disable monitor mode.
 

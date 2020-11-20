@@ -7,12 +7,12 @@
 
 net_interface="wlp58s0" 
 
-echo ""
-echo "Witch based distro you have ?"
-echo ""
-echo "Type 1 if you have a Debian based distro."
-echo "Type 2 if you have a Red Hat based distro."
-echo "Type 3 if you have a Arch based distro."
+echo ""                                                 #
+echo "which based distro you have ?"                    #
+echo ""                                                 # FIRST QUESTION (WICH DISTRO?)
+echo "Type 1 if you have a Debian based distro."        #
+echo "Type 2 if you have a Red Hat based distro."       #
+echo "Type 3 if you have a Arch based distro."          #
 echo ""
 
 read DISTRO
